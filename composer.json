@@ -1,0 +1,18 @@
+{
+  "name": "harshitPalDemo/greeting",
+  "description": "this is a greeting package",
+  "type": "library",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Harshit Pal",
+      "email": "palharshit239@gmail.com"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "mypackage\\": "greeting/src/"
+    }
+  },
+  "require": {}
+}
